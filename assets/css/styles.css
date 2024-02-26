@@ -1,0 +1,39 @@
+/* Estilos para el contenedor principal */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilos para la imagen */
+.container img {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px; /* Ajusta el tamaño máximo de la imagen */
+}
+
+/* Estilos para el texto */
+.container h1,
+.container p {
+    margin-top: 20px;
+}
+
+/* Estilos para el formulario */
+.container form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para el campo de entrada */
+.buscador {
+    width: 300px; /* Ancho del campo de entrada ajustado */
+}
+
+
+
+/* Estilos para el botón */
+.btn-primary {
+    padding: 10px 20px; /* Ajustar el relleno del botón para que sea más grande */
+    font-size: 16px; /* Tamaño de fuente del botón */
+}

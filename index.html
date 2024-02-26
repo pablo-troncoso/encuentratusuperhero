@@ -8,50 +8,53 @@
     <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link href="assets/css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navbar -->  
-    <nav class="navbar navbar-expand-lg bg-secondary fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#" style="color: white;">
-                <img src="assets/img/favicon.ico" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                SuperHero
-            </a>
-        </div>
-    </nav>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-secondary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" style="color: white;">
+                    <img src="assets/img/favicon.ico" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    SuperHero
+                </a>
+            </div>
+        </nav>
     
-    <!-- Header -->  
-    <header class="container text-center">
-        <div class="image-container mb-4">
-           <img src="assets/img/sh1.jpg" alt="SuperHero" class="img-fluid imagenporte">
+        <!-- Image and Title Section -->
+        <div class="container text-center">
+            <div class="image-container mt-5 mb-4"> <!-- Añadido margen superior -->
+               <img src="assets/img/sh1.jpg" alt="SuperHero" class="img-fluid imagenporte">
+            </div>
+            <h1 class="mb-4 oswald">Encuentra tu SuperHero</h1>
         </div>
-        <h1 class="mb-4">Encuentra tu SuperHero</h1>
     </header>
     
-<!-- Contenedor de botones -->  
+    
 <!-- Contenedor de botones -->  
 <div class="container text-center">
-    <!-- Texto adicional -->
-    <p class="mb-3">Ingresa el número del SuperHero a buscar:</p>
-    <!-- Formulario -->
-    <form action="/buscar" method="GET">
-        <div class="input-group mb-3">
-            <input type="text" name="superhero" placeholder="Escribe tu Número Acá! " class="form-control buscador">
-        </div>
-        <div class="mb-3">
-            <button type="submit" class="btn btn-primary btn-lg">Buscar</button> 
-        </div>
-    </form>
-</div>
-
-
-</div>
-
+    <div class="container text-center">
+        <!-- Texto adicional -->
+        <p class="mb-3">Ingresa el número del SuperHero a buscar:</p>
+        <!-- Formulario -->
+        <form action="/buscar" method="GET">
+            <div class="mb-3">
+                <input type="text" name="superhero" placeholder="Escribe tu Número Acá! " class="form-control buscador" style="max-width: 300px;"> <!-- Establecemos un ancho máximo de 300px -->
+            </div>
+            <div class="mb-3">
+                <button type="submit" class="btn btn-primary btn-lg">Buscar</button> 
+            </div>
+        </form>
+    </div>
     
 
-  
 
-    <!-- Footer -->    
+</div>
+
+<!-- Footer -->    
     <footer class="container">
         <p>Encuentra tu SuperHero © 2024 - Pablo Troncoso</p>
     </footer>

@@ -1,30 +1,33 @@
 .oswald {
     font-family: "Oswald", sans-serif;
-    font-weight: 400; /* Puedes especificar el peso que desees */
+    font-weight: 400; 
     font-style: normal;
   }
   
 
-/* Estilos para el contenedor principal */
+/* Contenedor Principal */
 .container {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
-/* Estilos para la imagen */
+/* Imagen */
 .container img {
     display: block;
-    margin: 70px auto 0;
-    max-width: 400px; /* Ajusta el tamaño máximo de la imagen */
+    margin: 40px auto 0;
+    max-width: 350px; 
 }
 
-/* Estilos para el texto */
+/* Texto */
 .container h1,
 .container p {
     margin-top: 20px;
 }
+.titulotexto {
+    font-size: 40px; 
+}
 
-/* Estilos para el formulario */
+/* Formulario */
 .container form {
     margin-top: 20px;
     display: flex;
@@ -32,15 +35,34 @@
     align-items: center;
 }
 
-/* Estilos para el campo de entrada */
+/* Entrada */
 .buscador {
-    width: 300px; /* Ancho del campo de entrada ajustado */
+    width: 300px; 
 }
 
-
-
-/* Estilos para el botón */
+/* Botón */
 .btn-primary {
-    padding: 10px 20px; /* Ajustar el relleno del botón para que sea más grande */
-    font-size: 16px; /* Tamaño de fuente del botón */
+    padding: 10px 20px; 
+    font-size: 16px; 
+}
+
+/* Footer */
+footer a {
+    color: inherit; 
+    text-decoration: none; 
+    transition: font-weight 0.3s; 
+}
+
+footer a:hover {
+    font-weight: bold; /
+}
+
+.footer-bg {
+    background-color: #f2f2f2; 
+    padding: 20px 0; 
+    width: 100%; 
+    text-align: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
